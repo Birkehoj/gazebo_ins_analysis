@@ -1,0 +1,11 @@
+#sensors definition SMURF file for "skid-loader-635", 20230924_21:26
+
+{
+  "sensors": [
+    {
+      "name": "gnss_sensor",
+      "type": "gps",
+      "link": "link_gnss_sensor"
+    }
+  ]
+}

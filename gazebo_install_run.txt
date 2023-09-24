@@ -1,0 +1,25 @@
+
+Disable System Integrity Protection Temporarilyin page link
+To disable SIP, do the following:
+Restart your computer in Recovery mode.
+Launch Terminal from the Utilities menu.
+Run the command csrutil disable.
+Restart your computer.
+
+Avoid issue with install in brew
+ulimit -f unlimited
+
+Server
+DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH gz sim -v4 -s -r shapes.sdf
+
+Gui
+DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH gz sim -v4 -g
+
+
+GZ_SIM_RESOURCE_PATH="$PWD":DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH gz sim -v4 -s -r world_demo.sdf
+
+
+# record
+GZ_SIM_RESOURCE_PATH="$PWD" DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH gz sim -v4 -s -r --record-path ./loader-log loader_world.sdf
+
+--playback ./loader-log

@@ -1,0 +1,66 @@
+#materials definition SMURF file for "skid-loader-635", 20230924_21:26
+
+{
+  "materials": [
+    {
+      "name": "BlackPaint",
+      "diffuseColor": {
+        "r": 0.12941,
+        "g": 0.12941,
+        "b": 0.12941
+      },
+      "ambientColor": {
+        "r": 0.12941,
+        "g": 0.12941,
+        "b": 0.12941
+      },
+      "specularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "shininess": 60.0,
+      "users": 3
+    },
+    {
+      "name": "SilverPaint",
+      "diffuseColor": {
+        "r": 0.28627,
+        "g": 0.30588,
+        "b": 0.31373
+      },
+      "ambientColor": {
+        "r": 0.28627,
+        "g": 0.30588,
+        "b": 0.31373
+      },
+      "specularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "shininess": 0,
+      "users": 4
+    },
+    {
+      "name": "yellowPaint",
+      "diffuseColor": {
+        "r": 0.81569,
+        "g": 0.70196,
+        "b": 0.17647
+      },
+      "ambientColor": {
+        "r": 0.81569,
+        "g": 0.70196,
+        "b": 0.17647
+      },
+      "specularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "shininess": 60.0,
+      "users": 2
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# main SMURF file of model "skid-loader-635"
+# created with Phobos 1.0.1 "Capricious Choutengan" - https://github.com/dfki-ric/phobos
+
+{
+  "SMURF version": "1.0.1 \"Capricious Choutengan\"",
+  "modelname": "skid-loader-635",
+  "date": "20230924_21:26",
+  "files": [
+    "../urdf/skid-loader-635.urdf",
+    "skid-loader-635_materials.yml",
+    "skid-loader-635_sensors.yml"
+  ]
+}
