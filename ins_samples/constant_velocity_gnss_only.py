@@ -3,9 +3,11 @@ from matplotlib import pyplot as plt
 from scipy.linalg import block_diag
 from filterpy.common import Q_discrete_white_noise
 import numpy as np
-from ins_data_utilities import *
 import math
-
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from ins_data_utilities import *
 
 def main():
     # Constant velocity filter
