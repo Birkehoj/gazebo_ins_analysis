@@ -108,16 +108,15 @@
                     <velocity_sensing>
                         <vertical>
                             <noise type='gaussian'>
-                                <mean>
-                                </mean>
-                                <stddev>0</stddev>
+                                <mean>0</mean>
+                                <stddev>1.0</stddev>
                                 <bias_mean>0</bias_mean>
                             </noise>
                         </vertical>
                         <horizontal>
                             <noise type='gaussian'>
                                 <mean>0</mean>
-                                <stddev>0</stddev>
+                                <stddev>0.5</stddev>
                                 <bias_mean>0</bias_mean>
                             </noise>
                         </horizontal>
@@ -135,10 +134,10 @@
                         <noise type="gaussian">
                             <mean>0.0</mean>
                             <stddev>0.003393695767766752</stddev>
-                            <bias_mean>0.0000075</bias_mean>
-                            <bias_stddev>0.008726646259971648</bias_stddev>
-                            <dynamic_bias_stddev>3.878509448876288e-05</dynamic_bias_stddev>
-                            <dynamic_bias_correlation_time>300.0</dynamic_bias_correlation_time>
+                            <bias_mean>0.008726646259971648</bias_mean>
+                            <bias_stddev>3.878509448876288e-05</bias_stddev>
+                            <dynamic_bias_stddev>0.008726646259971648</dynamic_bias_stddev>
+                            <dynamic_bias_correlation_time>1000.0</dynamic_bias_correlation_time>
                             <precision>0</precision>
                         </noise>
                     </x>
@@ -146,10 +145,10 @@
                         <noise type="gaussian">
                             <mean>0.0</mean>
                             <stddev>0.003393695767766752</stddev>
-                            <bias_mean>0.0000075</bias_mean>
-                            <bias_stddev>0.008726646259971648</bias_stddev>
-                            <dynamic_bias_stddev>3.878509448876288e-05</dynamic_bias_stddev>
-                            <dynamic_bias_correlation_time>300.0</dynamic_bias_correlation_time>
+                            <bias_mean>0.008726646259971648</bias_mean>
+                            <bias_stddev>3.878509448876288e-05</bias_stddev>
+                            <dynamic_bias_stddev>0.008726646259971648</dynamic_bias_stddev>
+                            <dynamic_bias_correlation_time>1000.0</dynamic_bias_correlation_time>
                             <precision>0</precision>
                         </noise>
                     </y>
@@ -157,10 +156,10 @@
                         <noise type="gaussian">
                             <mean>0.0</mean>
                             <stddev>0.003393695767766752</stddev>
-                            <bias_mean>0.0000075</bias_mean>
-                            <bias_stddev>0.008726646259971648</bias_stddev>
-                            <dynamic_bias_stddev>3.878509448876288e-05</dynamic_bias_stddev>
-                            <dynamic_bias_correlation_time>300.0</dynamic_bias_correlation_time>
+                            <bias_mean>0.008726646259971648</bias_mean>
+                            <bias_stddev>3.878509448876288e-05</bias_stddev>
+                            <dynamic_bias_stddev>0.008726646259971648</dynamic_bias_stddev>
+                            <dynamic_bias_correlation_time>1000.0</dynamic_bias_correlation_time>
                             <precision>0</precision>
                         </noise>
                     </z>
@@ -169,10 +168,10 @@
                     <x>
                         <noise type="gaussian">
                             <mean>0.0</mean>
-                            <stddev>0.003393695767766752</stddev>
-                            <bias_mean>0.0000075</bias_mean>
-                            <bias_stddev>0.008726646259971648</bias_stddev>
-                            <dynamic_bias_stddev>3.878509448876288e-05</dynamic_bias_stddev>
+                            <stddev>0.04</stddev>
+                            <bias_mean>0.196</bias_mean>
+                            <bias_stddev>0.006</bias_stddev>
+                            <dynamic_bias_stddev>0.196</dynamic_bias_stddev>
                             <dynamic_bias_correlation_time>300.0</dynamic_bias_correlation_time>
                             <precision>0</precision>
                         </noise>
@@ -180,10 +179,10 @@
                     <y>
                         <noise type="gaussian">
                             <mean>0.0</mean>
-                            <stddev>0.003393695767766752</stddev>
-                            <bias_mean>0.0000075</bias_mean>
-                            <bias_stddev>0.008726646259971648</bias_stddev>
-                            <dynamic_bias_stddev>3.878509448876288e-05</dynamic_bias_stddev>
+                            <stddev>0.04</stddev>
+                            <bias_mean>0.196</bias_mean>
+                            <bias_stddev>0.006</bias_stddev>
+                            <dynamic_bias_stddev>0.196</dynamic_bias_stddev>
                             <dynamic_bias_correlation_time>300.0</dynamic_bias_correlation_time>
                             <precision>0</precision>
                         </noise>
@@ -191,10 +190,10 @@
                     <z>
                         <noise type="gaussian">
                             <mean>0.0</mean>
-                            <stddev>0.003393695767766752</stddev>
-                            <bias_mean>0.0000075</bias_mean>
-                            <bias_stddev>0.008726646259971648</bias_stddev>
-                            <dynamic_bias_stddev>3.878509448876288e-05</dynamic_bias_stddev>
+                            <stddev>0.04</stddev>
+                            <bias_mean>0.196</bias_mean>
+                            <bias_stddev>0.006</bias_stddev>
+                            <dynamic_bias_stddev>0.196</dynamic_bias_stddev>
                             <dynamic_bias_correlation_time>300.0</dynamic_bias_correlation_time>
                             <precision>0</precision>
                         </noise>

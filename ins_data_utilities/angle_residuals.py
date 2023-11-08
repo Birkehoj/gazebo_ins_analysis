@@ -1,6 +1,7 @@
 import numpy
 
-
+""" compute residual (a-b) between measurements containing
+[range, bearing]. Bearing is normalized to [-pi, pi)"""
 def ang_diff_min(theta1, theta2, full=2.0 * numpy.pi):
     r"""
     Find the angular difference from `theta1` to `theta2`, with the
@@ -41,3 +42,12 @@ def ang_diff_min(theta1, theta2, full=2.0 * numpy.pi):
     step1 = numpy.fmod(theta2 - theta1 + half, full)
     return numpy.fmod(step1 + full, full) - half
 
+"""
+Alternative impl.
+def residual(a, b):
+    y = a - b
+    y[1] = y[1] % (2 * np.pi)    # force in range [0, 2 pi)
+    if y[1] > np.pi:             # move to [-pi, pi)
+        y[1] -= 2 * np.pi
+    return y
+"""
